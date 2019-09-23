@@ -91,7 +91,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Rapat Biasa</a></li>
+            <li><a href="forms"><i class="fa fa-circle-o"></i> Rapat Biasa</a></li>
             <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Rapat Koordinasi</a></li>
           </ul>
         </li>
@@ -107,21 +107,12 @@
   <div class="content-wrapper">
  
     <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Dashboard
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Dashboard</li>
-      </ol>
-    </section>
-
+   
     <!-- Main content -->
     <section class="content">
     <div class="row">
       
-      <div class="col-md-6">
+      <div class="col">
         @yield('content')
       </div>
     

@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/dashboard','AdminController@dashboard');
-Route::get('/forms','Event1Controller@event1');
+Route::get('/forms','Event1Controller@form');
