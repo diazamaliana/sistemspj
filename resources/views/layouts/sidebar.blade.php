@@ -16,15 +16,12 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
         <li class="treeview ">
-          <a href="dashboard">
-          <router-link to="dashboard" class="nav-link">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+          <li><a href="dashboard"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
           </a>
         </li>
+
         <li class="treeview ">
-          <a href="employee">
-          <router-link to="employee" class="nav-link">
-            <i class="fa fa-user"></i> <span>Pegawai</span>
+          <li><a href="employee"><i class="fa fa-user"></i> <span>Data Pegawai</span></a></li>
           </a>
         </li>
 
