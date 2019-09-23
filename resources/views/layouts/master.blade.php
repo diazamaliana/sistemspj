@@ -41,67 +41,9 @@
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
-  <header class="main-header">
-    <!-- Logo -->
-    <a href="index2.html" class="logo">
-      <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
-      <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
-    </a>
-    <!-- Header Navbar: style can be found in header.less -->
-    <nav class="navbar navbar-static-top">
-      <!-- Sidebar toggle button-->
-      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-        <span class="sr-only">Toggle navigation</span>
-      </a>
-
-      
-    </nav>
-  </header>
-  <!-- Left side column. contains the logo and sidebar -->
-  <aside class="main-sidebar">
-    <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar">
-      <!-- Sidebar user panel -->
-      <div class="user-panel">
-        <div class="pull-left image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-        </div>
-        <div class="pull-left info">
-          <p>Alexander Pierce</p>
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-        </div>
-      </div>
-      
-      <!-- sidebar menu: : style can be found in sidebar.less -->
-      <ul class="sidebar-menu" data-widget="tree">
-        <li class="header">MAIN NAVIGATION</li>
-        <li class="active treeview">
-          <a href="dashboard">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-          </a>
-        </li>
-
-        <li class="treeview">
-          <a href="forms">
-            <i class="fa fa-edit"></i> <span>Forms</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="forms"><i class="fa fa-circle-o"></i> Rapat Biasa</a></li>
-            <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Rapat Koordinasi</a></li>
-          </ul>
-        </li>
+  @include('layouts.header')
     
-        <li class="header">LABELS</li>
-        <li><a href="#"><i class="fa fa-power-off"></i> <span>Log Out</span></a></li>
-      </ul>
-    </section>
-    <!-- /.sidebar -->
-  </aside>
+  @include('layouts.sidebar')
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -121,35 +63,9 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b>Version</b> 1.0.0
-    </div>
-    <strong>Copyright &copy; 2019 <a href="https://diskominfo.jogjaprov.go.id/"> Dinas Komunikasi dan Informatika DIY</a>.</strong> All rights
-    reserved.
-  </footer>
+  
+  @include('layouts.footer')
 
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark" style="display: none;">
-    <!-- Create the tabs -->
-    <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
-      <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
-      <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
-    </ul>
-    <!-- Tab panes -->
-    <div class="tab-content">
-      <!-- Home tab content -->
-      <!-- /.tab-pane -->
-      <!-- Stats tab content -->
-      <!-- /.tab-pane -->
-      <!-- Settings tab content -->
-      <!-- /.tab-pane -->
-    </div>
-  </aside>
-  <!-- /.control-sidebar -->
-  <!-- Add the sidebar's background. This div must be placed
-       immediately after the control sidebar -->
-  <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->
 

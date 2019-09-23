@@ -14,5 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/register','RegistrationController@register');
 Route::get('/dashboard','AdminController@dashboard');
-Route::get('/forms','Event1Controller@form');
+Route::get('/event1','FormController@form');
+Route::get('/event2','FormController@form1');
