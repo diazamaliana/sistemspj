@@ -21,6 +21,12 @@
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
           </a>
         </li>
+        <li class="treeview ">
+          <a href="employee">
+          <router-link to="employee" class="nav-link">
+            <i class="fa fa-user"></i> <span>Pegawai</span>
+          </a>
+        </li>
 
         <li class="treeview">
           <a href="forms">
