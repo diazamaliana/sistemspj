@@ -5,9 +5,7 @@
       <h1>
         Dashboard
       </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-      </ol>
+
 </section>
 <section class="content">
       <div class="row">
@@ -17,14 +15,80 @@
               <h3 class="box-title">Daftar Kegiatan</h3>
             </div>
             <!-- /.box-header -->
-            <div class="box-body table-responsive no-padding">
-              <table class="table table-hover">
-                <tbody><tr>
+            <div class="box-body table-responsive ">
+              <table class="table table-hover pull-left">
+                <tbody>
+                <tr>
                   <th>ID</th>
                   <th>Data Kegiatan</th>
                   <th>Data Pelaksana</th>
                   <th>Unduh Dokumen</th>
                   <th>Proses</th>
+                </tr>
+                <tr>
+                  <td>001</td>
+                  <td>
+                    <div class="body-group pull-left">
+                      <p><i class="fa fa-tag pull-left"></i><b> Jenis Kegiatan : </b> Rapat Biasa</p>
+                      <p><i class="fa fa-book pull-left"></i><b> Nama Acara     : </b> Rapat Biasa terkait Pembuatan SI</p>
+                      <p><i class="fa fa-calendar pull-left"></i><b> Tanggal Mulai Acara:</b> 1 Oktober 2019 </p>
+                      <p><b>Waktu Mulai Acara  :</b> 08.00 - 09.00<i class="fa fa-clock-o pull-left"></i></p>
+                      <p><i class="fa fa-calendar pull-left"></i><b> Tanggal Selesai Acara:</b> 1 Oktober 2019 </p>
+                      <p><b>Waktu Selesai Acara  : </b>08.00 - 09.00<i class="fa fa-clock-o pull-left"></i></p>
+                      <p><i class="fa fa-map-pin pull-left"></i><b> Tempat Acara    : </b> Ruang DCS Diskominfo DIY</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="body-group pull-justify">
+                      <p><i class="fa fa-user pull-left"></i><b> Ketua Pelaksana  : </b> Yustinus</p>
+                      <p><i class="fa fa-database pull-left"></i><b> NIM : </b> 198910281095672001</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="body-group pull-left">
+                      <a class="btn btn-block btn-default btn-xm"><i class="fa fa-print pull-left"></i>  Daftar Hadir </a>
+                      <a class="btn btn-block btn-default btn-xm"><i class="fa fa-print pull-left"></i>  Notulensi </a>
+                    </div>
+                  </td>
+                  <td>
+                    <button type="button" class="btn btn-success btn-xs">Edit</button>
+                    <button type="button" class="btn btn-danger btn-xs">Hapus</button>
+                  </td>                 
+                </tr>
+
+                <tr>
+                  <td>002</td>
+                  <td>
+                    <div class="body-group pull-left">
+                      <p><i class="fa fa-tag pull-left"></i><b> Jenis Kegiatan : </b> Rapat Biasa</p>
+                      <p><i class="fa fa-book pull-left"></i><b> Nama Acara     : </b> Rapat Biasa terkait Pembuatan SI</p>
+                      <p><i class="fa fa-calendar pull-left"></i><b> Tanggal Mulai Acara:</b> 1 Oktober 2019 </p>
+                      <p><b>Waktu Mulai Acara  :</b> 08.00 - 09.00<i class="fa fa-clock-o pull-left"></i></p>
+                      <p><i class="fa fa-calendar pull-left"></i><b> Tanggal Selesai Acara:</b> 1 Oktober 2019 </p>
+                      <p><b>Waktu Selesai Acara  :</b> 08.00 - 09.00<i class="fa fa-clock-o pull-left"></i></p>
+                      <p><i class="fa fa-map-pin pull-left"></i><b> Tempat Acara    : </b> Ruang DCS Diskominfo DIY</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="body-group pull-justify">
+                      <p><i class="fa fa-user pull-left"></i><b> Ketua Pelaksana  : </b> Yustinus</p>
+                      <p><i class="fa fa-database pull-left"></i><b> NIM : </b> 198910281095672001</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="body-group pull-left">
+                      <a class="btn btn-block btn-default btn-xm"><i class="fa fa-print pull-left"></i>  Daftar Hadir </a>
+                      <a class="btn btn-block btn-default btn-xm"><i class="fa fa-print pull-left"></i>  Notulensi </a>
+                      <a class="btn btn-block btn-default btn-xm"><i class="fa fa-print pull-left"></i>  SK Narasumber </a>
+                      <a class="btn btn-block btn-default btn-xm"><i class="fa fa-print pull-left"></i>  TOR </a>
+                    </div>
+                  </td>
+                  <td>
+                    <button type="button" class="btn btn-success btn-xs">Edit</button>
+                    <button type="button" class="btn btn-danger btn-xs">Hapus</button>
+                  </td>                 
+                </tr>
+
               </tbody></table>
             </div>
             <!-- /.box-body -->
