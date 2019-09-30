@@ -32,9 +32,9 @@
                       <p><i class="fa fa-tag pull-left"></i><b> Jenis Kegiatan : </b> Rapat Biasa</p>
                       <p><i class="fa fa-book pull-left"></i><b> Nama Acara     : </b> Rapat Biasa terkait Pembuatan SI</p>
                       <p><i class="fa fa-calendar pull-left"></i><b> Tanggal Mulai Acara:</b> 1 Oktober 2019 </p>
-                      <p><b>Waktu Mulai Acara  :</b> 08.00 - 09.00<i class="fa fa-clock-o pull-left"></i></p>
+                      <p><b>Waktu Mulai Acara  :</b> 08.00<i class="fa fa-clock-o pull-left"></i></p>
                       <p><i class="fa fa-calendar pull-left"></i><b> Tanggal Selesai Acara:</b> 1 Oktober 2019 </p>
-                      <p><b>Waktu Selesai Acara  : </b>08.00 - 09.00<i class="fa fa-clock-o pull-left"></i></p>
+                      <p><b>Waktu Selesai Acara  : </b>09.00 <i class="fa fa-clock-o pull-left"></i></p>
                       <p><i class="fa fa-map-pin pull-left"></i><b> Tempat Acara    : </b> Ruang DCS Diskominfo DIY</p>
                     </div>
                   </td>
@@ -60,19 +60,19 @@
                   <td>002</td>
                   <td>
                     <div class="body-group pull-left">
-                      <p><i class="fa fa-tag pull-left"></i><b> Jenis Kegiatan : </b> Rapat Biasa</p>
-                      <p><i class="fa fa-book pull-left"></i><b> Nama Acara     : </b> Rapat Biasa terkait Pembuatan SI</p>
-                      <p><i class="fa fa-calendar pull-left"></i><b> Tanggal Mulai Acara:</b> 1 Oktober 2019 </p>
-                      <p><b>Waktu Mulai Acara  :</b> 08.00 - 09.00<i class="fa fa-clock-o pull-left"></i></p>
-                      <p><i class="fa fa-calendar pull-left"></i><b> Tanggal Selesai Acara:</b> 1 Oktober 2019 </p>
-                      <p><b>Waktu Selesai Acara  :</b> 08.00 - 09.00<i class="fa fa-clock-o pull-left"></i></p>
+                      <p><i class="fa fa-tag pull-left"></i><b> Jenis Kegiatan : </b> Rapat Koordinasi</p>
+                      <p><i class="fa fa-book pull-left"></i><b> Nama Acara     : </b> Rapat Pembahasan SDGS</p>
+                      <p><i class="fa fa-calendar pull-left"></i><b> Tanggal Mulai Acara:</b> 22 April 2019 </p>
+                      <p><b>Waktu Mulai Acara  :</b> 16.30 <i class="fa fa-clock-o pull-left"></i></p>
+                      <p><i class="fa fa-calendar pull-left"></i><b> Tanggal Selesai Acara:</b> 22 April 2019  </p>
+                      <p><b>Waktu Selesai Acara  :</b> 18.00 <i class="fa fa-clock-o pull-left"></i></p>
                       <p><i class="fa fa-map-pin pull-left"></i><b> Tempat Acara    : </b> Ruang DCS Diskominfo DIY</p>
                     </div>
                   </td>
                   <td>
                     <div class="body-group pull-justify">
-                      <p><i class="fa fa-user pull-left"></i><b> Ketua Pelaksana  : </b> Yustinus</p>
-                      <p><i class="fa fa-database pull-left"></i><b> NIM : </b> 198910281095672001</p>
+                      <p><i class="fa fa-user pull-left"></i><b> Ketua Pelaksana  : </b> Ir. RONY PRIMANTO HARI, MT</p>
+                      <p><i class="fa fa-database pull-left"></i><b> NIM : </b> 196112071990031002</p>
                     </div>
                   </td>
                   <td>
