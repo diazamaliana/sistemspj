@@ -56,6 +56,10 @@
                     <input type="datetime-local" class="form-control" id="endDate" placeholder="Pilih Tanggal Acara Berakhir">
                 </div>
                 <div class="form-group">
+                    <label for="placeEvent1">Tempat Acara</label>
+                    <input type="text" class="form-control" id="placeEvent1" placeholder="Masukan Tempat Acara">
+                </div>
+                <div class="form-group">
                     <label for="participant">Jumlah Peserta</label>
                     <input type="number" class="form-control" id="participant" placeholder="Tentukan Jumlah Peserta">
                 </div>
