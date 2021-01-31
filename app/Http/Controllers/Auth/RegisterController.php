@@ -7,27 +7,21 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
-use Sentinel;
-use Activation;
+
 class RegisterController extends Controller
 {
-    public function register()
-    {
-        return view('auth.register');
-    }
-
-    public function store(Request $request)
-    {
-        $user= Sentinel::register($request->all());
-        $activation= Activation::create($user);
-        $role= Sentinel::findRoleBySlug ('admin');
-        $role->users()->attach($user);
-        return redirect() ->back()->with ('success', 'Registration Successful');
-    }
+    /*
+    |--------------------------------------------------------------------------
+    | Register Controller
+    |--------------------------------------------------------------------------
+    |
+    | This controller handles the registration of new users as well as their
+    | validation and creation. By default this controller uses a trait to
+    | provide this functionality without requiring any additional code.
+    |
+    */
 
     use RegistersUsers;
-
-   
 
     /**
      * Where to redirect users after registration.
@@ -55,9 +49,9 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255|unique:users',
+            'password' => 'required|string|min:6|confirmed',
         ]);
     }
 
@@ -75,5 +69,4 @@ class RegisterController extends Controller
             'password' => Hash::make($data['password']),
         ]);
     }
-    
 }
