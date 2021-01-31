@@ -12,15 +12,50 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.dasbor');
 });
-Route::get('/register','RegisterController@register');
-Route::get('/register','RegisterController@postRegister');
-Route::get('/login', 'LoginController@login');
-Route::get('/dashboard','AdminController@dashboard');
-Route::get('/employee','AdminController@employee');
-Route::get('/event1','FormController@form');
-Route::get('/event2','FormController@form1');
+Route::get('/staff', function () {
+    return view('layouts.staff');
+});
+
+Route::get('/edit-pembuatan-sistem-informasi', function () {
+    return view('data_kegiatan.edForm1');
+});
+
 Auth::routes();
+Route::get('/profil', function(){
+    return view('profil.master');
+});
+
+//Dasbor Admin
+Route::get('/dasbor', function(){
+    return view('dasbor.master');
+});
+
+Route::get('/data-pegawai', function(){
+    return view('data_pegawai.master');
+});
+
+Route::get('/data-kegiatan', function(){
+    return view('data_kegiatan.master');
+});
+
+Route::get('/form1', function(){
+    return view('data_kegiatan.form1');
+});
+
+Route::get('/form2', function(){
+    return view('data_kegiatan.form2');
+});
+
+Route::get('/dokumen', function(){
+    return view('dokumen_pendukung.master');
+});
+
+Route::get('/pj-biaya', function(){
+    return view('pj_biaya.master');
+});
+
+
 
 Route::get('/home', 'HomeController@index')->name('home');
